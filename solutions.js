@@ -32,3 +32,7 @@ console.log(newArray);
 console.log(myLuckyNumber[9]);
 myLuckyNumber.push(valueOne);
 console.log(myLuckyNumber);
+
+myLuckyNumber.includes(valueTwo)
+  ? console.log(myLuckyNumber)
+  : console.log(myLuckyNumber.push(valueTwo));
