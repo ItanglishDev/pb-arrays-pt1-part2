@@ -21,3 +21,10 @@ const valueTogetherArray = valueTogether.split("");
 console.log(valueTogetherArray);
 
 console.log(myLuckyNumber[0]);
+
+const valueOneString = valueOne.toString();
+// const valueOneStringArray = valueOneString.split("");
+const newArray = [myLuckyNumber[0], valueOne];
+console.log(valueOneString);
+console.log(newArray);
+// console.log(valueOneStringArray);
