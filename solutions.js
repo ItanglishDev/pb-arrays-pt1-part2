@@ -12,3 +12,10 @@ const resultIs =
   myLuckyNumber[9];
 
 console.log(resultIs);
+
+const valueOne = 5;
+const valueTwo = 9;
+const valueTogether = valueOne.toString() + valueTwo.toString();
+console.log(valueTogether);
+const valueTogetherArray = valueTogether.split("");
+console.log(valueTogetherArray);
