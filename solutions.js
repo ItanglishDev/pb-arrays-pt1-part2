@@ -28,3 +28,5 @@ const newArray = [myLuckyNumber[0], valueOne];
 console.log(valueOneString);
 console.log(newArray);
 // console.log(valueOneStringArray);
+
+console.log(myLuckyNumber[9]);
