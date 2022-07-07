@@ -30,3 +30,5 @@ console.log(newArray);
 // console.log(valueOneStringArray);
 
 console.log(myLuckyNumber[9]);
+myLuckyNumber.push(valueOne);
+console.log(myLuckyNumber);
