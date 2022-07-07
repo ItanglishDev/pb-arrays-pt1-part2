@@ -13,14 +13,14 @@ const resultIs =
 
 console.log(resultIs);
 
-const valueOne = 5;
-const valueTwo = 9;
+const valueOne = 5.2;
+const valueTwo = 4.9;
 const valueTogether = valueOne.toString() + valueTwo.toString();
 console.log(valueTogether);
 const valueTogetherArray = valueTogether.split("");
 console.log(valueTogetherArray);
 
-console.log(myLuckyNumber[0]);
+console.log("this is something" + myLuckyNumber[0]);
 
 const valueOneString = valueOne.toString();
 // const valueOneStringArray = valueOneString.split("");
@@ -33,6 +33,12 @@ console.log(myLuckyNumber[9]);
 myLuckyNumber.push(valueOne);
 console.log(myLuckyNumber);
 
-myLuckyNumber.includes(valueTwo)
+myLuckyNumber.includes(valueOne)
   ? console.log(myLuckyNumber)
-  : console.log(myLuckyNumber.push(valueTwo));
+  : myLuckyNumber.push(valueTwo)
+  ? console.log(myLuckyNumber)
+  : "";
+
+// const arrayOfWords = ["John", "Paul", "the", "Second"];
+// arrayOfWords.splice(3, 0, "and");
+// console.log(arrayOfWords.join(" "));
