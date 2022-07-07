@@ -19,3 +19,5 @@ const valueTogether = valueOne.toString() + valueTwo.toString();
 console.log(valueTogether);
 const valueTogetherArray = valueTogether.split("");
 console.log(valueTogetherArray);
+
+console.log(myLuckyNumber[0]);
