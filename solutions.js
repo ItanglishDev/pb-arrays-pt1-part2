@@ -40,5 +40,10 @@ myLuckyNumber.includes(valueOne)
   : "";
 
 const arrayOfWords = ["John", "Paul", "the", "Second"];
-arrayOfWords.splice(3, 0, "and");
-console.log(arrayOfWords.join(","));
+const arrayOfWordsOne = arrayOfWords.slice(0, 3);
+const arrayOfWordsTwo = arrayOfWords.slice(3);
+console.log(arrayOfWordsOne.join(" ") + " and " + arrayOfWordsTwo.join(" "));
+// console.log(arrayOfWordsOne);
+// console.log(arrayOfWordsTwo);
+
+// console.log(arrayOfWordsOne + "and" + arrayOfWordsTwo);
