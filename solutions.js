@@ -47,3 +47,43 @@ console.log(arrayOfWordsOne.join(" ") + " and " + arrayOfWordsTwo.join(" "));
 // console.log(arrayOfWordsTwo);
 
 // console.log(arrayOfWordsOne + "and" + arrayOfWordsTwo);
+
+console.log(myLuckyNumber.slice(0, 6));
+
+const stringOfNumbers = "025468";
+const stringOfNumbersArray = stringOfNumbers.split("");
+const stringOfNumbersArrayInt = [stringOfNumbersArray.map(Number)];
+console.log("array made into number " + stringOfNumbersArray);
+// console.log("line 56 " + stringOfNumbersArray);
+
+stringOfNumbersArray[0] % 2 == 0 && stringOfNumbersArray[1] % 2 === 0
+  ? stringOfNumbersArray.splice(1, 0, "-")
+  : "";
+
+stringOfNumbersArray[1] % 2 == 0 &&
+stringOfNumbersArray[2] % 2 === 0 &&
+stringOfNumbersArray[1] != dash
+  ? stringOfNumbersArray.splice(2, 0, "-")
+  : "";
+
+stringOfNumbersArray[2] % 2 == 0 &&
+stringOfNumbersArray[3] % 2 === 0 &&
+stringOfNumbersArray[2] != dash
+  ? stringOfNumbersArray.splice(3, 0, "-")
+  : "";
+
+stringOfNumbersArray[3] % 2 == 0 && stringOfNumbersArray[4] % 2 === 0
+  ? stringOfNumbersArray.splice(4, 0, "-")
+  : "";
+
+stringOfNumbersArray[4] % 2 == 0 &&
+  stringOfNumbersArray[5] % 2 === 0 &&
+  stringOfNumbersArray[4] != "-";
+stringOfNumbersArray[5] != "-" ? stringOfNumbersArray.splice(4, 0, "-") : "";
+stringOfNumbersArray[5] % 2 == 0 &&
+stringOfNumbersArray[6] % 2 === 0 &&
+stringOfNumbersArray[5] != "-"
+  ? stringOfNumbersArray.splice(5, 0, "-")
+  : "";
+
+console.log("final string " + stringOfNumbersArray);
