@@ -39,6 +39,6 @@ myLuckyNumber.includes(valueOne)
   ? console.log(myLuckyNumber)
   : "";
 
-// const arrayOfWords = ["John", "Paul", "the", "Second"];
-// arrayOfWords.splice(3, 0, "and");
-// console.log(arrayOfWords.join(" "));
+const arrayOfWords = ["John", "Paul", "the", "Second"];
+arrayOfWords.splice(3, 0, "and");
+console.log(arrayOfWords.join(","));
